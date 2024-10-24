@@ -1,6 +1,7 @@
-package at.tim;
+package at.tim.demo;
 
 import java.util.Date;
+import java.util.Scanner;
 
 public class Picture {
     private int size;
@@ -27,10 +28,6 @@ public class Picture {
 
     public Date getDate() {
         return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
     }
 
 }
