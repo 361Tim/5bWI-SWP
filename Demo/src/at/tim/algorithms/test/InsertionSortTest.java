@@ -1,14 +1,14 @@
 package at.tim.algorithms.test;
 
 import org.junit.jupiter.api.Test;
-import at.tim.algorithms.SelectionSort;
+import at.tim.algorithms.InsertionSort;
 import at.tim.algorithms.Sorter;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class SelectionSortTest {
+public class InsertionSortTest {
 
-    private final Sorter sorter = new SelectionSort("SelectionSorter");
+    private final Sorter sorter = new InsertionSort("InsertionSorter");
 
     @Test
     void testSelectionSortWithPositiveNumbers() {
